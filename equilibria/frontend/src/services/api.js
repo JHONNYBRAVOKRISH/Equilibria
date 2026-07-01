@@ -1,5 +1,7 @@
 const hostname = window.location.hostname || 'localhost';
-const API_BASE = `http://${hostname}:5000/api`;
+const API_BASE = hostname === 'localhost' || hostname === '127.0.0.1'
+  ? `http://${hostname}:5000/api`
+  : 'https://equilibria-production.up.railway.app/api';
 
 export const authStore = {
   getToken: () => localStorage.getItem('nutritrack_token'),
