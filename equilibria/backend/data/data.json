@@ -1,0 +1,2903 @@
+{
+  "users": [
+    {
+      "id": "usr_default",
+      "name": "Alex Developer",
+      "email": "alex@example.com",
+      "password": "password123",
+      "age": 26,
+      "gender": "male",
+      "height_cm": 178,
+      "weight_kg": 74,
+      "activity_level": "moderate",
+      "goal": "maintain",
+      "target_calories": 2350,
+      "target_protein_g": 140,
+      "target_carbs_g": 260,
+      "target_fat_g": 75,
+      "target_fiber_g": 32,
+      "created_at": "2026-06-28T09:29:36.248Z"
+    },
+    {
+      "id": "usr_1782642221826",
+      "name": "krish gulati",
+      "email": "gulatikrish6@gmail.com",
+      "password": "Kris@0601",
+      "age": 20,
+      "gender": "male",
+      "height_cm": 181,
+      "weight_kg": 93,
+      "activity_level": "active",
+      "goal": "lose",
+      "bmr": 1966,
+      "tdee": 3391,
+      "target_calories": 2000,
+      "target_protein_g": 148,
+      "target_carbs_g": 242,
+      "target_fat_g": 68,
+      "target_fiber_g": 28,
+      "created_at": "2026-06-28T10:23:41.826Z",
+      "is_custom_target": true,
+      "rollover_enabled": false,
+      "rollover_window": 3
+    }
+  ],
+  "foods": [
+    {
+      "id": "ifct_roti",
+      "name": "Whole Wheat Roti / Chapati",
+      "category": "Indian Staples",
+      "base_unit": "g",
+      "base_amount": 100,
+      "calories": 297,
+      "protein_g": 11.6,
+      "carbs_g": 60,
+      "fat_g": 1.5,
+      "fiber_g": 9.7,
+      "serving_quantity": 40,
+      "portions": [
+        {
+          "name": "1 Small Roti",
+          "weight": 30
+        },
+        {
+          "name": "1 Medium Roti",
+          "weight": 40
+        },
+        {
+          "name": "1 Large Roti",
+          "weight": 55
+        },
+        {
+          "name": "1 Piece",
+          "weight": 40
+        },
+        {
+          "name": "1 Serving",
+          "weight": 80
+        }
+      ],
+      "data_source": "ICMR/IFCT 2020",
+      "is_verified": true
+    },
+    {
+      "id": "ifct_paneer",
+      "name": "Paneer (Cow Milk)",
+      "category": "Indian Staples",
+      "base_unit": "g",
+      "base_amount": 100,
+      "calories": 258,
+      "protein_g": 18.3,
+      "carbs_g": 1.2,
+      "fat_g": 20,
+      "fiber_g": 0,
+      "serving_quantity": 30,
+      "portions": [
+        {
+          "name": "1 Small Cube",
+          "weight": 15
+        },
+        {
+          "name": "1 Medium Slice",
+          "weight": 30
+        },
+        {
+          "name": "1 Cup, diced",
+          "weight": 150
+        },
+        {
+          "name": "1 Piece",
+          "weight": 30
+        },
+        {
+          "name": "1 Serving",
+          "weight": 100
+        }
+      ],
+      "data_source": "ICMR/IFCT 2020",
+      "is_verified": true
+    },
+    {
+      "id": "ifct_biryani",
+      "name": "Chicken Biryani",
+      "category": "Indian Dishes",
+      "base_unit": "g",
+      "base_amount": 100,
+      "calories": 180,
+      "protein_g": 9.5,
+      "carbs_g": 22,
+      "fat_g": 6.2,
+      "fiber_g": 1.2,
+      "serving_quantity": 350,
+      "portions": [
+        {
+          "name": "1 Plate / Serving",
+          "weight": 350
+        },
+        {
+          "name": "1 Half Plate",
+          "weight": 200
+        },
+        {
+          "name": "1 Cup",
+          "weight": 180
+        },
+        {
+          "name": "1 Piece Chicken",
+          "weight": 90
+        }
+      ],
+      "data_source": "ICMR/IFCT 2020",
+      "is_verified": true
+    },
+    {
+      "id": "ifct_butter_chicken",
+      "name": "Butter Chicken (Murgh Makhani)",
+      "category": "Indian Dishes",
+      "base_unit": "g",
+      "base_amount": 100,
+      "calories": 215,
+      "protein_g": 14.2,
+      "carbs_g": 4.8,
+      "fat_g": 15.5,
+      "fiber_g": 0.8,
+      "serving_quantity": 250,
+      "portions": [
+        {
+          "name": "1 Bowl / Serving",
+          "weight": 250
+        },
+        {
+          "name": "1 Portion (3 pieces)",
+          "weight": 200
+        },
+        {
+          "name": "1 Piece Chicken with gravy",
+          "weight": 80
+        }
+      ],
+      "data_source": "ICMR/IFCT 2020",
+      "is_verified": true
+    },
+    {
+      "id": "ifct_tandoori_chicken",
+      "name": "Tandoori Chicken",
+      "category": "Indian Dishes",
+      "base_unit": "g",
+      "base_amount": 100,
+      "calories": 195,
+      "protein_g": 23,
+      "carbs_g": 2,
+      "fat_g": 10.5,
+      "fiber_g": 0.4,
+      "serving_quantity": 180,
+      "portions": [
+        {
+          "name": "1 Leg Piece (Quarter)",
+          "weight": 150
+        },
+        {
+          "name": "1 Breast Piece (Quarter)",
+          "weight": 180
+        },
+        {
+          "name": "1 Half Chicken",
+          "weight": 350
+        },
+        {
+          "name": "1 Piece",
+          "weight": 100
+        },
+        {
+          "name": "1 Serving",
+          "weight": 200
+        }
+      ],
+      "data_source": "ICMR/IFCT 2020",
+      "is_verified": true
+    },
+    {
+      "id": "ifct_dal",
+      "name": "Moong Dal (Cooked / Tadka)",
+      "category": "Indian Staples",
+      "base_unit": "g",
+      "base_amount": 100,
+      "calories": 115,
+      "protein_g": 7.2,
+      "carbs_g": 15,
+      "fat_g": 3.2,
+      "fiber_g": 3.8,
+      "serving_quantity": 180,
+      "portions": [
+        {
+          "name": "1 Small Katori / Bowl",
+          "weight": 150
+        },
+        {
+          "name": "1 Medium Bowl",
+          "weight": 200
+        },
+        {
+          "name": "1 Large Serving Bowl",
+          "weight": 250
+        },
+        {
+          "name": "1 Serving",
+          "weight": 180
+        }
+      ],
+      "data_source": "ICMR/IFCT 2020",
+      "is_verified": true
+    },
+    {
+      "id": "ifct_rice",
+      "name": "Cooked Basmati Rice",
+      "category": "Indian Staples",
+      "base_unit": "g",
+      "base_amount": 100,
+      "calories": 130,
+      "protein_g": 2.7,
+      "carbs_g": 28.2,
+      "fat_g": 0.3,
+      "fiber_g": 0.4,
+      "serving_quantity": 150,
+      "portions": [
+        {
+          "name": "1 Small Katori / Bowl",
+          "weight": 120
+        },
+        {
+          "name": "1 Medium Bowl",
+          "weight": 180
+        },
+        {
+          "name": "1 Large Serving Bowl",
+          "weight": 250
+        },
+        {
+          "name": "1 Plate / Serving",
+          "weight": 250
+        }
+      ],
+      "data_source": "ICMR/IFCT 2020",
+      "is_verified": true
+    },
+    {
+      "id": "ifct_bread",
+      "name": "Plain White Bread",
+      "category": "Staples",
+      "base_unit": "g",
+      "base_amount": 100,
+      "calories": 265,
+      "protein_g": 9,
+      "carbs_g": 49,
+      "fat_g": 3.2,
+      "fiber_g": 2.7,
+      "serving_quantity": 25,
+      "portions": [
+        {
+          "name": "1 Slice",
+          "weight": 25
+        },
+        {
+          "name": "2 Slices",
+          "weight": 50
+        },
+        {
+          "name": "1 Piece",
+          "weight": 25
+        },
+        {
+          "name": "1 Serving",
+          "weight": 50
+        }
+      ],
+      "data_source": "ICMR/IFCT 2020",
+      "is_verified": true
+    },
+    {
+      "id": "ind_paratha_plain",
+      "name": "Plain Paratha",
+      "category": "Indian Staples",
+      "base_unit": "g",
+      "base_amount": 100,
+      "calories": 300,
+      "protein_g": 7,
+      "carbs_g": 43,
+      "fat_g": 11,
+      "fiber_g": 4,
+      "serving_quantity": 60,
+      "portions": [
+        {
+          "name": "1 Piece",
+          "weight": 60
+        },
+        {
+          "name": "1 Serving",
+          "weight": 60
+        }
+      ],
+      "data_source": "ICMR/IFCT Verified",
+      "is_verified": true
+    },
+    {
+      "id": "ind_paratha_aloo",
+      "name": "Aloo Paratha",
+      "category": "Indian Staples",
+      "base_unit": "g",
+      "base_amount": 100,
+      "calories": 320,
+      "protein_g": 7,
+      "carbs_g": 48,
+      "fat_g": 11,
+      "fiber_g": 4.5,
+      "serving_quantity": 90,
+      "portions": [
+        {
+          "name": "1 Piece",
+          "weight": 90
+        },
+        {
+          "name": "1 Serving",
+          "weight": 90
+        }
+      ],
+      "data_source": "ICMR/IFCT Verified",
+      "is_verified": true
+    },
+    {
+      "id": "ind_paratha_paneer",
+      "name": "Paneer Paratha",
+      "category": "Indian Staples",
+      "base_unit": "g",
+      "base_amount": 100,
+      "calories": 340,
+      "protein_g": 11,
+      "carbs_g": 42,
+      "fat_g": 14,
+      "fiber_g": 3.5,
+      "serving_quantity": 100,
+      "portions": [
+        {
+          "name": "1 Piece",
+          "weight": 100
+        },
+        {
+          "name": "1 Serving",
+          "weight": 100
+        }
+      ],
+      "data_source": "ICMR/IFCT Verified",
+      "is_verified": true
+    },
+    {
+      "id": "ind_palak_paneer",
+      "name": "Palak Paneer",
+      "category": "Indian Sabzi",
+      "base_unit": "g",
+      "base_amount": 100,
+      "calories": 180,
+      "protein_g": 9,
+      "carbs_g": 8,
+      "fat_g": 13,
+      "fiber_g": 2.5,
+      "serving_quantity": 200,
+      "portions": [
+        {
+          "name": "1 Bowl / Serving",
+          "weight": 200
+        },
+        {
+          "name": "1 Piece",
+          "weight": 100
+        }
+      ],
+      "data_source": "ICMR/IFCT Verified",
+      "is_verified": true
+    },
+    {
+      "id": "junk_pav_bhaji",
+      "name": "Pav Bhaji",
+      "category": "Street Food & Snacks",
+      "base_unit": "g",
+      "base_amount": 100,
+      "calories": 133,
+      "protein_g": 3,
+      "carbs_g": 19.3,
+      "fat_g": 4.6,
+      "fiber_g": 2.8,
+      "serving_quantity": 300,
+      "portions": [
+        {
+          "name": "1 Plate / Serving",
+          "weight": 300
+        },
+        {
+          "name": "1 Piece Pav",
+          "weight": 50
+        }
+      ],
+      "data_source": "Fast Food Database",
+      "is_verified": true
+    },
+    {
+      "id": "junk_vada_pav",
+      "name": "Vada Pav",
+      "category": "Street Food & Snacks",
+      "base_unit": "g",
+      "base_amount": 100,
+      "calories": 240,
+      "protein_g": 5.8,
+      "carbs_g": 35,
+      "fat_g": 8.3,
+      "fiber_g": 3,
+      "serving_quantity": 120,
+      "portions": [
+        {
+          "name": "1 Piece",
+          "weight": 120
+        },
+        {
+          "name": "1 Serving",
+          "weight": 120
+        }
+      ],
+      "data_source": "Fast Food Database",
+      "is_verified": true
+    },
+    {
+      "id": "junk_pani_puri",
+      "name": "Pani Puri",
+      "category": "Street Food & Snacks",
+      "base_unit": "g",
+      "base_amount": 100,
+      "calories": 125,
+      "protein_g": 2.5,
+      "carbs_g": 21.6,
+      "fat_g": 3.3,
+      "fiber_g": 1.5,
+      "serving_quantity": 120,
+      "portions": [
+        {
+          "name": "6 Pieces / Serving",
+          "weight": 120
+        },
+        {
+          "name": "1 Piece",
+          "weight": 20
+        }
+      ],
+      "data_source": "Fast Food Database",
+      "is_verified": true
+    },
+    {
+      "id": "junk_pakora",
+      "name": "Pakora / Bhajiya",
+      "category": "Street Food & Snacks",
+      "base_unit": "g",
+      "base_amount": 100,
+      "calories": 280,
+      "protein_g": 7,
+      "carbs_g": 30,
+      "fat_g": 15,
+      "fiber_g": 3.5,
+      "serving_quantity": 100,
+      "portions": [
+        {
+          "name": "1 Serving (100g)",
+          "weight": 100
+        },
+        {
+          "name": "1 Piece",
+          "weight": 25
+        }
+      ],
+      "data_source": "Fast Food Database",
+      "is_verified": true
+    },
+    {
+      "id": "junk_bread_pakora",
+      "name": "Bread Pakora",
+      "category": "Street Food & Snacks",
+      "base_unit": "g",
+      "base_amount": 100,
+      "calories": 222,
+      "protein_g": 5.5,
+      "carbs_g": 28.8,
+      "fat_g": 10,
+      "fiber_g": 2.5,
+      "serving_quantity": 90,
+      "portions": [
+        {
+          "name": "1 Piece",
+          "weight": 90
+        },
+        {
+          "name": "1 Serving",
+          "weight": 90
+        }
+      ],
+      "data_source": "Fast Food Database",
+      "is_verified": true
+    },
+    {
+      "id": "ff_double_burger",
+      "name": "Double Patty Burger",
+      "category": "Global Fast Food",
+      "base_unit": "g",
+      "base_amount": 100,
+      "calories": 272,
+      "protein_g": 16.6,
+      "carbs_g": 15,
+      "fat_g": 14.4,
+      "fiber_g": 1,
+      "serving_quantity": 180,
+      "portions": [
+        {
+          "name": "1 Burger",
+          "weight": 180
+        },
+        {
+          "name": "1 Piece",
+          "weight": 180
+        }
+      ],
+      "data_source": "Fast Food Database",
+      "is_verified": true
+    },
+    {
+      "id": "snk_lays",
+      "name": "Lay's Classic Chips",
+      "category": "Packaged Snacks",
+      "base_unit": "g",
+      "base_amount": 100,
+      "calories": 535,
+      "protein_g": 7.1,
+      "carbs_g": 53.5,
+      "fat_g": 35.7,
+      "fiber_g": 4,
+      "serving_quantity": 28,
+      "portions": [
+        {
+          "name": "1 Pack (28g)",
+          "weight": 28
+        },
+        {
+          "name": "1 Piece",
+          "weight": 28
+        }
+      ],
+      "data_source": "Packaged Foods Database",
+      "is_verified": true
+    },
+    {
+      "id": "snk_kurkure",
+      "name": "Kurkure",
+      "category": "Packaged Snacks",
+      "base_unit": "g",
+      "base_amount": 100,
+      "calories": 486,
+      "protein_g": 4.5,
+      "carbs_g": 63.6,
+      "fat_g": 22.7,
+      "fiber_g": 2,
+      "serving_quantity": 22,
+      "portions": [
+        {
+          "name": "1 Pack (22g)",
+          "weight": 22
+        },
+        {
+          "name": "1 Piece",
+          "weight": 22
+        }
+      ],
+      "data_source": "Packaged Foods Database",
+      "is_verified": true
+    },
+    {
+      "id": "snk_parle_g",
+      "name": "Parle-G Biscuits",
+      "category": "Packaged Snacks",
+      "base_unit": "g",
+      "base_amount": 100,
+      "calories": 450,
+      "protein_g": 7,
+      "carbs_g": 77,
+      "fat_g": 11,
+      "fiber_g": 2,
+      "serving_quantity": 100,
+      "portions": [
+        {
+          "name": "1 Packet (100g)",
+          "weight": 100
+        },
+        {
+          "name": "1 Piece",
+          "weight": 5
+        }
+      ],
+      "data_source": "Packaged Foods Database",
+      "is_verified": true
+    },
+    {
+      "id": "snk_marie",
+      "name": "Marie Biscuit",
+      "category": "Packaged Snacks",
+      "base_unit": "g",
+      "base_amount": 100,
+      "calories": 428,
+      "protein_g": 7.1,
+      "carbs_g": 71.4,
+      "fat_g": 11.4,
+      "fiber_g": 2.5,
+      "serving_quantity": 7,
+      "portions": [
+        {
+          "name": "1 Piece",
+          "weight": 7
+        },
+        {
+          "name": "1 Serving (4 biscuits)",
+          "weight": 28
+        }
+      ],
+      "data_source": "Packaged Foods Database",
+      "is_verified": true
+    },
+    {
+      "id": "snk_oreo",
+      "name": "Oreo Biscuit",
+      "category": "Packaged Snacks",
+      "base_unit": "g",
+      "base_amount": 100,
+      "calories": 481,
+      "protein_g": 4.5,
+      "carbs_g": 68.1,
+      "fat_g": 20.9,
+      "fiber_g": 2.7,
+      "serving_quantity": 11,
+      "portions": [
+        {
+          "name": "1 Piece",
+          "weight": 11
+        },
+        {
+          "name": "1 Serving (3 biscuits)",
+          "weight": 33
+        }
+      ],
+      "data_source": "Packaged Foods Database",
+      "is_verified": true
+    },
+    {
+      "id": "snk_maggi",
+      "name": "Maggi Noodles (Cooked)",
+      "category": "Packaged Snacks",
+      "base_unit": "g",
+      "base_amount": 100,
+      "calories": 160,
+      "protein_g": 3.6,
+      "carbs_g": 23.6,
+      "fat_g": 5.4,
+      "fiber_g": 1.5,
+      "serving_quantity": 220,
+      "portions": [
+        {
+          "name": "1 Pack Cooked",
+          "weight": 220
+        },
+        {
+          "name": "1 Piece",
+          "weight": 220
+        }
+      ],
+      "data_source": "Packaged Foods Database",
+      "is_verified": true
+    },
+    {
+      "id": "snk_ramen",
+      "name": "Instant Ramen",
+      "category": "Packaged Snacks",
+      "base_unit": "g",
+      "base_amount": 100,
+      "calories": 172,
+      "protein_g": 4,
+      "carbs_g": 25,
+      "fat_g": 6.3,
+      "fiber_g": 1.2,
+      "serving_quantity": 220,
+      "portions": [
+        {
+          "name": "1 Pack Cooked",
+          "weight": 220
+        },
+        {
+          "name": "1 Piece",
+          "weight": 220
+        }
+      ],
+      "data_source": "Packaged Foods Database",
+      "is_verified": true
+    },
+    {
+      "id": "snk_popcorn_salt",
+      "name": "Popcorn (Salted)",
+      "category": "Packaged Snacks",
+      "base_unit": "g",
+      "base_amount": 100,
+      "calories": 375,
+      "protein_g": 11,
+      "carbs_g": 74,
+      "fat_g": 4,
+      "fiber_g": 14.5,
+      "serving_quantity": 100,
+      "portions": [
+        {
+          "name": "1 Large Tub / Serving",
+          "weight": 100
+        },
+        {
+          "name": "1 Piece",
+          "weight": 100
+        }
+      ],
+      "data_source": "Packaged Foods Database",
+      "is_verified": true
+    },
+    {
+      "id": "snk_popcorn_butter",
+      "name": "Popcorn (Butter)",
+      "category": "Packaged Snacks",
+      "base_unit": "g",
+      "base_amount": 100,
+      "calories": 535,
+      "protein_g": 8,
+      "carbs_g": 65,
+      "fat_g": 28,
+      "fiber_g": 10,
+      "serving_quantity": 100,
+      "portions": [
+        {
+          "name": "1 Large Tub / Serving",
+          "weight": 100
+        },
+        {
+          "name": "1 Piece",
+          "weight": 100
+        }
+      ],
+      "data_source": "Packaged Foods Database",
+      "is_verified": true
+    },
+    {
+      "id": "snk_nachos_cheese",
+      "name": "Nachos with Cheese",
+      "category": "Packaged Snacks",
+      "base_unit": "g",
+      "base_amount": 100,
+      "calories": 480,
+      "protein_g": 8,
+      "carbs_g": 52,
+      "fat_g": 27,
+      "fiber_g": 5,
+      "serving_quantity": 100,
+      "portions": [
+        {
+          "name": "1 Serving",
+          "weight": 100
+        },
+        {
+          "name": "1 Piece",
+          "weight": 100
+        }
+      ],
+      "data_source": "Packaged Foods Database",
+      "is_verified": true
+    },
+    {
+      "id": "frt_papaya",
+      "name": "Fresh Papaya",
+      "category": "Fruits",
+      "base_unit": "g",
+      "base_amount": 100,
+      "calories": 43,
+      "protein_g": 0.5,
+      "carbs_g": 11,
+      "fat_g": 0.3,
+      "fiber_g": 1.7,
+      "serving_quantity": 145,
+      "portions": [
+        {
+          "name": "1 Cup Cubes",
+          "weight": 145
+        },
+        {
+          "name": "1 Piece",
+          "weight": 100
+        }
+      ],
+      "data_source": "Fruits Database",
+      "is_verified": true
+    },
+    {
+      "id": "dal_panchmel",
+      "name": "Panchmel Dal (Cooked)",
+      "category": "Indian Dals & Lentils",
+      "base_unit": "g",
+      "base_amount": 100,
+      "calories": 140,
+      "protein_g": 8,
+      "carbs_g": 22,
+      "fat_g": 3,
+      "fiber_g": 4.2,
+      "serving_quantity": 180,
+      "portions": [
+        {
+          "name": "1 Bowl / Serving",
+          "weight": 180
+        },
+        {
+          "name": "1 Piece",
+          "weight": 100
+        }
+      ],
+      "data_source": "Indian Dals Database",
+      "is_verified": true
+    },
+    {
+      "id": "sabzi_matar_paneer",
+      "name": "Matar Paneer",
+      "category": "Everyday Sabzis (Cooked)",
+      "base_unit": "g",
+      "base_amount": 100,
+      "calories": 220,
+      "protein_g": 10,
+      "carbs_g": 14,
+      "fat_g": 14,
+      "fiber_g": 2.8,
+      "serving_quantity": 180,
+      "portions": [
+        {
+          "name": "1 Bowl / Serving",
+          "weight": 180
+        },
+        {
+          "name": "1 Piece",
+          "weight": 100
+        }
+      ],
+      "data_source": "Indian Sabzi Database",
+      "is_verified": true
+    },
+    {
+      "id": "sabzi_shahi_paneer",
+      "name": "Shahi Paneer",
+      "category": "Everyday Sabzis (Cooked)",
+      "base_unit": "g",
+      "base_amount": 100,
+      "calories": 280,
+      "protein_g": 11,
+      "carbs_g": 12,
+      "fat_g": 22,
+      "fiber_g": 1.5,
+      "serving_quantity": 180,
+      "portions": [
+        {
+          "name": "1 Bowl / Serving",
+          "weight": 180
+        },
+        {
+          "name": "1 Piece",
+          "weight": 100
+        }
+      ],
+      "data_source": "Indian Sabzi Database",
+      "is_verified": true
+    },
+    {
+      "id": "sabzi_kadai_paneer",
+      "name": "Kadai Paneer",
+      "category": "Everyday Sabzis (Cooked)",
+      "base_unit": "g",
+      "base_amount": 100,
+      "calories": 260,
+      "protein_g": 12,
+      "carbs_g": 10,
+      "fat_g": 20,
+      "fiber_g": 2,
+      "serving_quantity": 180,
+      "portions": [
+        {
+          "name": "1 Bowl / Serving",
+          "weight": 180
+        },
+        {
+          "name": "1 Piece",
+          "weight": 100
+        }
+      ],
+      "data_source": "Indian Sabzi Database",
+      "is_verified": true
+    },
+    {
+      "id": "sabzi_palak",
+      "name": "Palak Sabzi (Spinach)",
+      "category": "Everyday Sabzis (Cooked)",
+      "base_unit": "g",
+      "base_amount": 100,
+      "calories": 75,
+      "protein_g": 4,
+      "carbs_g": 6,
+      "fat_g": 3,
+      "fiber_g": 3,
+      "serving_quantity": 150,
+      "portions": [
+        {
+          "name": "1 Bowl / Serving",
+          "weight": 150
+        },
+        {
+          "name": "1 Piece",
+          "weight": 100
+        }
+      ],
+      "data_source": "Indian Sabzi Database",
+      "is_verified": true
+    },
+    {
+      "id": "raw_spinach",
+      "name": "Spinach / Palak (Raw)",
+      "category": "Raw Vegetables",
+      "base_unit": "g",
+      "base_amount": 100,
+      "calories": 23,
+      "protein_g": 2.9,
+      "carbs_g": 3.6,
+      "fat_g": 0.4,
+      "fiber_g": 2.2,
+      "serving_quantity": 100,
+      "portions": [
+        {
+          "name": "1 Cup Leaves",
+          "weight": 30
+        },
+        {
+          "name": "1 Serving",
+          "weight": 100
+        }
+      ],
+      "data_source": "Raw Vegetables Database",
+      "is_verified": true
+    },
+    {
+      "id": "raw_cabbage",
+      "name": "Cabbage / Patta Gobi",
+      "category": "Raw Vegetables",
+      "base_unit": "g",
+      "base_amount": 100,
+      "calories": 25,
+      "protein_g": 1.3,
+      "carbs_g": 6,
+      "fat_g": 0.1,
+      "fiber_g": 2.5,
+      "serving_quantity": 100,
+      "portions": [
+        {
+          "name": "1 Cup Shredded",
+          "weight": 90
+        },
+        {
+          "name": "1 Piece",
+          "weight": 100
+        }
+      ],
+      "data_source": "Raw Vegetables Database",
+      "is_verified": true
+    },
+    {
+      "id": "ind_puri",
+      "name": "Puri",
+      "category": "Indian Staples",
+      "base_unit": "g",
+      "base_amount": 100,
+      "calories": 425,
+      "protein_g": 5.7,
+      "carbs_g": 48,
+      "fat_g": 22.6,
+      "fiber_g": 3,
+      "serving_quantity": 35,
+      "portions": [
+        {
+          "name": "1 Piece",
+          "weight": 35
+        },
+        {
+          "name": "1 Serving (2 puris)",
+          "weight": 70
+        }
+      ],
+      "data_source": "ICMR/IFCT Verified",
+      "is_verified": true
+    },
+    {
+      "id": "junk_dosa_plain",
+      "name": "Plain Dosa",
+      "category": "Indian Breakfast & Snacks",
+      "base_unit": "g",
+      "base_amount": 100,
+      "calories": 210,
+      "protein_g": 5,
+      "carbs_g": 37.5,
+      "fat_g": 5,
+      "fiber_g": 2,
+      "serving_quantity": 80,
+      "portions": [
+        {
+          "name": "1 Piece",
+          "weight": 80
+        },
+        {
+          "name": "1 Serving",
+          "weight": 80
+        }
+      ],
+      "data_source": "Fast Food Database",
+      "is_verified": true
+    },
+    {
+      "id": "frt_apple",
+      "name": "Fresh Apple",
+      "category": "Fruits",
+      "base_unit": "g",
+      "base_amount": 100,
+      "calories": 52,
+      "protein_g": 0.3,
+      "carbs_g": 14,
+      "fat_g": 0.2,
+      "fiber_g": 2.4,
+      "serving_quantity": 150,
+      "portions": [
+        {
+          "name": "1 Medium Apple",
+          "weight": 150
+        },
+        {
+          "name": "1 Piece",
+          "weight": 150
+        }
+      ],
+      "data_source": "Fruits Database",
+      "is_verified": true
+    },
+    {
+      "id": "frt_pineapple",
+      "name": "Pineapple",
+      "category": "Fruits",
+      "base_unit": "g",
+      "base_amount": 100,
+      "calories": 50,
+      "protein_g": 0.5,
+      "carbs_g": 13,
+      "fat_g": 0.1,
+      "fiber_g": 1.4,
+      "serving_quantity": 165,
+      "portions": [
+        {
+          "name": "1 Cup Chunks",
+          "weight": 165
+        },
+        {
+          "name": "1 Slice",
+          "weight": 84
+        }
+      ],
+      "data_source": "Fruits Database",
+      "is_verified": true
+    },
+    {
+      "id": "frt_jamun",
+      "name": "Jamun (Black Plum)",
+      "category": "Fruits",
+      "base_unit": "g",
+      "base_amount": 100,
+      "calories": 62,
+      "protein_g": 0.7,
+      "carbs_g": 14,
+      "fat_g": 0.3,
+      "fiber_g": 0.9,
+      "serving_quantity": 100,
+      "portions": [
+        {
+          "name": "1 Cup (100g)",
+          "weight": 100
+        },
+        {
+          "name": "1 Piece",
+          "weight": 10
+        }
+      ],
+      "data_source": "Fruits Database",
+      "is_verified": true
+    },
+    {
+      "id": "frt_plum",
+      "name": "Fresh Plum",
+      "category": "Fruits",
+      "base_unit": "g",
+      "base_amount": 100,
+      "calories": 46,
+      "protein_g": 0.7,
+      "carbs_g": 11,
+      "fat_g": 0.3,
+      "fiber_g": 1.4,
+      "serving_quantity": 66,
+      "portions": [
+        {
+          "name": "1 Medium Plum",
+          "weight": 66
+        },
+        {
+          "name": "1 Piece",
+          "weight": 66
+        }
+      ],
+      "data_source": "Fruits Database",
+      "is_verified": true
+    },
+    {
+      "id": "sabzi_baingan_bharta",
+      "name": "Baingan Bharta (Eggplant)",
+      "category": "Everyday Sabzis (Cooked)",
+      "base_unit": "g",
+      "base_amount": 100,
+      "calories": 100,
+      "protein_g": 2,
+      "carbs_g": 10,
+      "fat_g": 5,
+      "fiber_g": 3.5,
+      "serving_quantity": 150,
+      "portions": [
+        {
+          "name": "1 Bowl / Serving",
+          "weight": 150
+        },
+        {
+          "name": "1 Piece",
+          "weight": 100
+        }
+      ],
+      "data_source": "Indian Sabzi Database",
+      "is_verified": true
+    },
+    {
+      "id": "ifct_009",
+      "name": "Plain White Bread",
+      "category": "Staples",
+      "base_unit": "g",
+      "base_amount": 100,
+      "calories": 265,
+      "protein_g": 9,
+      "carbs_g": 49,
+      "fat_g": 3.2,
+      "fiber_g": 2.7,
+      "serving_quantity": 25,
+      "portions": [
+        {
+          "name": "1 Slice",
+          "weight": 25
+        },
+        {
+          "name": "2 Slices",
+          "weight": 50
+        },
+        {
+          "name": "1 Piece",
+          "weight": 25
+        },
+        {
+          "name": "1 Serving",
+          "weight": 50
+        }
+      ],
+      "data_source": "ICMR/IFCT 2020",
+      "is_verified": true
+    },
+    {
+      "id": "ifct_011",
+      "name": "Plain Paratha",
+      "category": "Indian Staples",
+      "base_unit": "g",
+      "base_amount": 100,
+      "calories": 300,
+      "protein_g": 7,
+      "carbs_g": 43,
+      "fat_g": 11,
+      "fiber_g": 4,
+      "serving_quantity": 60,
+      "portions": [
+        {
+          "name": "1 Piece",
+          "weight": 60
+        },
+        {
+          "name": "1 Serving",
+          "weight": 60
+        }
+      ],
+      "data_source": "ICMR/IFCT Verified",
+      "is_verified": true
+    },
+    {
+      "id": "ifct_035",
+      "name": "Plain Dosa",
+      "category": "Indian Breakfast & Snacks",
+      "base_unit": "g",
+      "base_amount": 100,
+      "calories": 210,
+      "protein_g": 5,
+      "carbs_g": 37.5,
+      "fat_g": 5,
+      "fiber_g": 2,
+      "serving_quantity": 80,
+      "portions": [
+        {
+          "name": "1 Piece",
+          "weight": 80
+        },
+        {
+          "name": "1 Serving",
+          "weight": 80
+        }
+      ],
+      "data_source": "Fast Food Database",
+      "is_verified": true
+    },
+    {
+      "id": "ifct_091",
+      "name": "Fresh Banana",
+      "category": "Fruits",
+      "base_unit": "g",
+      "base_amount": 100,
+      "calories": 89,
+      "protein_g": 1.1,
+      "carbs_g": 23,
+      "fat_g": 0.3,
+      "fiber_g": 2.6,
+      "serving_quantity": 118,
+      "portions": [
+        {
+          "name": "1 Medium Banana",
+          "weight": 118
+        },
+        {
+          "name": "1 Piece",
+          "weight": 118
+        }
+      ],
+      "data_source": "Fruits Database",
+      "is_verified": true
+    },
+    {
+      "id": "ifct_001",
+      "name": "Whole Wheat Roti / Chapati",
+      "category": "Indian Staples",
+      "base_unit": "g",
+      "base_amount": 100,
+      "calories": 297,
+      "protein_g": 11.6,
+      "carbs_g": 60,
+      "fat_g": 1.5,
+      "fiber_g": 9.7,
+      "serving_quantity": 40,
+      "portions": [
+        {
+          "name": "1 Small Roti",
+          "weight": 30
+        },
+        {
+          "name": "1 Medium Roti",
+          "weight": 40
+        },
+        {
+          "name": "1 Large Roti",
+          "weight": 55
+        },
+        {
+          "name": "1 Piece",
+          "weight": 40
+        },
+        {
+          "name": "1 Serving",
+          "weight": 80
+        }
+      ],
+      "data_source": "ICMR/IFCT 2020",
+      "is_verified": true
+    },
+    {
+      "id": "ifct_002",
+      "name": "Paneer (Cow Milk)",
+      "category": "Indian Staples",
+      "base_unit": "g",
+      "base_amount": 100,
+      "calories": 258,
+      "protein_g": 18.3,
+      "carbs_g": 1.2,
+      "fat_g": 20,
+      "fiber_g": 0,
+      "serving_quantity": 30,
+      "portions": [
+        {
+          "name": "1 Small Cube",
+          "weight": 15
+        },
+        {
+          "name": "1 Medium Slice",
+          "weight": 30
+        },
+        {
+          "name": "1 Cup, diced",
+          "weight": 150
+        },
+        {
+          "name": "1 Piece",
+          "weight": 30
+        },
+        {
+          "name": "1 Serving",
+          "weight": 100
+        }
+      ],
+      "data_source": "ICMR/IFCT 2020",
+      "is_verified": true
+    },
+    {
+      "id": "ifct_012",
+      "name": "Aloo Paratha",
+      "category": "Indian Staples",
+      "base_unit": "g",
+      "base_amount": 100,
+      "calories": 320,
+      "protein_g": 7,
+      "carbs_g": 48,
+      "fat_g": 11,
+      "fiber_g": 4.5,
+      "serving_quantity": 90,
+      "portions": [
+        {
+          "name": "1 Piece",
+          "weight": 90
+        },
+        {
+          "name": "1 Serving",
+          "weight": 90
+        }
+      ],
+      "data_source": "ICMR/IFCT Verified",
+      "is_verified": true
+    },
+    {
+      "id": "ifct_013",
+      "name": "Paneer Paratha",
+      "category": "Indian Staples",
+      "base_unit": "g",
+      "base_amount": 100,
+      "calories": 340,
+      "protein_g": 11,
+      "carbs_g": 42,
+      "fat_g": 14,
+      "fiber_g": 3.5,
+      "serving_quantity": 100,
+      "portions": [
+        {
+          "name": "1 Piece",
+          "weight": 100
+        },
+        {
+          "name": "1 Serving",
+          "weight": 100
+        }
+      ],
+      "data_source": "ICMR/IFCT Verified",
+      "is_verified": true
+    },
+    {
+      "id": "ifct_018",
+      "name": "Palak Paneer",
+      "category": "Indian Sabzi",
+      "base_unit": "g",
+      "base_amount": 100,
+      "calories": 180,
+      "protein_g": 9,
+      "carbs_g": 8,
+      "fat_g": 13,
+      "fiber_g": 2.5,
+      "serving_quantity": 200,
+      "portions": [
+        {
+          "name": "1 Bowl / Serving",
+          "weight": 200
+        },
+        {
+          "name": "1 Piece",
+          "weight": 100
+        }
+      ],
+      "data_source": "ICMR/IFCT Verified",
+      "is_verified": true
+    },
+    {
+      "id": "ifct_027",
+      "name": "Pav Bhaji",
+      "category": "Street Food & Snacks",
+      "base_unit": "g",
+      "base_amount": 100,
+      "calories": 133,
+      "protein_g": 3,
+      "carbs_g": 19.3,
+      "fat_g": 4.6,
+      "fiber_g": 2.8,
+      "serving_quantity": 300,
+      "portions": [
+        {
+          "name": "1 Plate / Serving",
+          "weight": 300
+        },
+        {
+          "name": "1 Piece Pav",
+          "weight": 50
+        }
+      ],
+      "data_source": "Fast Food Database",
+      "is_verified": true
+    },
+    {
+      "id": "ifct_028",
+      "name": "Vada Pav",
+      "category": "Street Food & Snacks",
+      "base_unit": "g",
+      "base_amount": 100,
+      "calories": 240,
+      "protein_g": 5.8,
+      "carbs_g": 35,
+      "fat_g": 8.3,
+      "fiber_g": 3,
+      "serving_quantity": 120,
+      "portions": [
+        {
+          "name": "1 Piece",
+          "weight": 120
+        },
+        {
+          "name": "1 Serving",
+          "weight": 120
+        }
+      ],
+      "data_source": "Fast Food Database",
+      "is_verified": true
+    },
+    {
+      "id": "ifct_032",
+      "name": "Pani Puri",
+      "category": "Street Food & Snacks",
+      "base_unit": "g",
+      "base_amount": 100,
+      "calories": 125,
+      "protein_g": 2.5,
+      "carbs_g": 21.6,
+      "fat_g": 3.3,
+      "fiber_g": 1.5,
+      "serving_quantity": 120,
+      "portions": [
+        {
+          "name": "6 Pieces / Serving",
+          "weight": 120
+        },
+        {
+          "name": "1 Piece",
+          "weight": 20
+        }
+      ],
+      "data_source": "Fast Food Database",
+      "is_verified": true
+    },
+    {
+      "id": "ifct_038",
+      "name": "Pakora / Bhajiya",
+      "category": "Street Food & Snacks",
+      "base_unit": "g",
+      "base_amount": 100,
+      "calories": 280,
+      "protein_g": 7,
+      "carbs_g": 30,
+      "fat_g": 15,
+      "fiber_g": 3.5,
+      "serving_quantity": 100,
+      "portions": [
+        {
+          "name": "1 Serving (100g)",
+          "weight": 100
+        },
+        {
+          "name": "1 Piece",
+          "weight": 25
+        }
+      ],
+      "data_source": "Fast Food Database",
+      "is_verified": true
+    },
+    {
+      "id": "ifct_039",
+      "name": "Bread Pakora",
+      "category": "Street Food & Snacks",
+      "base_unit": "g",
+      "base_amount": 100,
+      "calories": 222,
+      "protein_g": 5.5,
+      "carbs_g": 28.8,
+      "fat_g": 10,
+      "fiber_g": 2.5,
+      "serving_quantity": 90,
+      "portions": [
+        {
+          "name": "1 Piece",
+          "weight": 90
+        },
+        {
+          "name": "1 Serving",
+          "weight": 90
+        }
+      ],
+      "data_source": "Fast Food Database",
+      "is_verified": true
+    },
+    {
+      "id": "ifct_042",
+      "name": "Double Patty Burger",
+      "category": "Global Fast Food",
+      "base_unit": "g",
+      "base_amount": 100,
+      "calories": 272,
+      "protein_g": 16.6,
+      "carbs_g": 15,
+      "fat_g": 14.4,
+      "fiber_g": 1,
+      "serving_quantity": 180,
+      "portions": [
+        {
+          "name": "1 Burger",
+          "weight": 180
+        },
+        {
+          "name": "1 Piece",
+          "weight": 180
+        }
+      ],
+      "data_source": "Fast Food Database",
+      "is_verified": true
+    },
+    {
+      "id": "ifct_059",
+      "name": "Lay's Classic Chips",
+      "category": "Packaged Snacks",
+      "base_unit": "g",
+      "base_amount": 100,
+      "calories": 535,
+      "protein_g": 7.1,
+      "carbs_g": 53.5,
+      "fat_g": 35.7,
+      "fiber_g": 4,
+      "serving_quantity": 28,
+      "portions": [
+        {
+          "name": "1 Pack (28g)",
+          "weight": 28
+        },
+        {
+          "name": "1 Piece",
+          "weight": 28
+        }
+      ],
+      "data_source": "Packaged Foods Database",
+      "is_verified": true
+    },
+    {
+      "id": "ifct_060",
+      "name": "Kurkure",
+      "category": "Packaged Snacks",
+      "base_unit": "g",
+      "base_amount": 100,
+      "calories": 486,
+      "protein_g": 4.5,
+      "carbs_g": 63.6,
+      "fat_g": 22.7,
+      "fiber_g": 2,
+      "serving_quantity": 22,
+      "portions": [
+        {
+          "name": "1 Pack (22g)",
+          "weight": 22
+        },
+        {
+          "name": "1 Piece",
+          "weight": 22
+        }
+      ],
+      "data_source": "Packaged Foods Database",
+      "is_verified": true
+    },
+    {
+      "id": "ifct_061",
+      "name": "Parle-G Biscuits",
+      "category": "Packaged Snacks",
+      "base_unit": "g",
+      "base_amount": 100,
+      "calories": 450,
+      "protein_g": 7,
+      "carbs_g": 77,
+      "fat_g": 11,
+      "fiber_g": 2,
+      "serving_quantity": 100,
+      "portions": [
+        {
+          "name": "1 Packet (100g)",
+          "weight": 100
+        },
+        {
+          "name": "1 Piece",
+          "weight": 5
+        }
+      ],
+      "data_source": "Packaged Foods Database",
+      "is_verified": true
+    },
+    {
+      "id": "ifct_062",
+      "name": "Marie Biscuit",
+      "category": "Packaged Snacks",
+      "base_unit": "g",
+      "base_amount": 100,
+      "calories": 428,
+      "protein_g": 7.1,
+      "carbs_g": 71.4,
+      "fat_g": 11.4,
+      "fiber_g": 2.5,
+      "serving_quantity": 7,
+      "portions": [
+        {
+          "name": "1 Piece",
+          "weight": 7
+        },
+        {
+          "name": "1 Serving (4 biscuits)",
+          "weight": 28
+        }
+      ],
+      "data_source": "Packaged Foods Database",
+      "is_verified": true
+    },
+    {
+      "id": "ifct_063",
+      "name": "Oreo Biscuit",
+      "category": "Packaged Snacks",
+      "base_unit": "g",
+      "base_amount": 100,
+      "calories": 481,
+      "protein_g": 4.5,
+      "carbs_g": 68.1,
+      "fat_g": 20.9,
+      "fiber_g": 2.7,
+      "serving_quantity": 11,
+      "portions": [
+        {
+          "name": "1 Piece",
+          "weight": 11
+        },
+        {
+          "name": "1 Serving (3 biscuits)",
+          "weight": 33
+        }
+      ],
+      "data_source": "Packaged Foods Database",
+      "is_verified": true
+    },
+    {
+      "id": "ifct_064",
+      "name": "Maggi Noodles (Cooked)",
+      "category": "Packaged Snacks",
+      "base_unit": "g",
+      "base_amount": 100,
+      "calories": 160,
+      "protein_g": 3.6,
+      "carbs_g": 23.6,
+      "fat_g": 5.4,
+      "fiber_g": 1.5,
+      "serving_quantity": 220,
+      "portions": [
+        {
+          "name": "1 Pack Cooked",
+          "weight": 220
+        },
+        {
+          "name": "1 Piece",
+          "weight": 220
+        }
+      ],
+      "data_source": "Packaged Foods Database",
+      "is_verified": true
+    },
+    {
+      "id": "ifct_065",
+      "name": "Instant Ramen",
+      "category": "Packaged Snacks",
+      "base_unit": "g",
+      "base_amount": 100,
+      "calories": 172,
+      "protein_g": 4,
+      "carbs_g": 25,
+      "fat_g": 6.3,
+      "fiber_g": 1.2,
+      "serving_quantity": 220,
+      "portions": [
+        {
+          "name": "1 Pack Cooked",
+          "weight": 220
+        },
+        {
+          "name": "1 Piece",
+          "weight": 220
+        }
+      ],
+      "data_source": "Packaged Foods Database",
+      "is_verified": true
+    },
+    {
+      "id": "ifct_066",
+      "name": "Popcorn (Salted)",
+      "category": "Packaged Snacks",
+      "base_unit": "g",
+      "base_amount": 100,
+      "calories": 375,
+      "protein_g": 11,
+      "carbs_g": 74,
+      "fat_g": 4,
+      "fiber_g": 14.5,
+      "serving_quantity": 100,
+      "portions": [
+        {
+          "name": "1 Large Tub / Serving",
+          "weight": 100
+        },
+        {
+          "name": "1 Piece",
+          "weight": 100
+        }
+      ],
+      "data_source": "Packaged Foods Database",
+      "is_verified": true
+    },
+    {
+      "id": "ifct_067",
+      "name": "Popcorn (Butter)",
+      "category": "Packaged Snacks",
+      "base_unit": "g",
+      "base_amount": 100,
+      "calories": 535,
+      "protein_g": 8,
+      "carbs_g": 65,
+      "fat_g": 28,
+      "fiber_g": 10,
+      "serving_quantity": 100,
+      "portions": [
+        {
+          "name": "1 Large Tub / Serving",
+          "weight": 100
+        },
+        {
+          "name": "1 Piece",
+          "weight": 100
+        }
+      ],
+      "data_source": "Packaged Foods Database",
+      "is_verified": true
+    },
+    {
+      "id": "ifct_068",
+      "name": "Nachos with Cheese",
+      "category": "Packaged Snacks",
+      "base_unit": "g",
+      "base_amount": 100,
+      "calories": 480,
+      "protein_g": 8,
+      "carbs_g": 52,
+      "fat_g": 27,
+      "fiber_g": 5,
+      "serving_quantity": 100,
+      "portions": [
+        {
+          "name": "1 Serving",
+          "weight": 100
+        },
+        {
+          "name": "1 Piece",
+          "weight": 100
+        }
+      ],
+      "data_source": "Packaged Foods Database",
+      "is_verified": true
+    },
+    {
+      "id": "ifct_094",
+      "name": "Fresh Papaya",
+      "category": "Fruits",
+      "base_unit": "g",
+      "base_amount": 100,
+      "calories": 43,
+      "protein_g": 0.5,
+      "carbs_g": 11,
+      "fat_g": 0.3,
+      "fiber_g": 1.7,
+      "serving_quantity": 145,
+      "portions": [
+        {
+          "name": "1 Cup Cubes",
+          "weight": 145
+        },
+        {
+          "name": "1 Piece",
+          "weight": 100
+        }
+      ],
+      "data_source": "Fruits Database",
+      "is_verified": true
+    },
+    {
+      "id": "fd_usda_2016476_1",
+      "name": "PANNER, GRAPE JELLY & PEANUT BUTTER",
+      "category": "Nut & Seed Butters",
+      "base_unit": "g",
+      "base_amount": 100,
+      "calories": 396,
+      "protein_g": 9.4,
+      "carbs_g": 54.7,
+      "fat_g": 18.9,
+      "fiber_g": 3.8,
+      "serving_quantity": 53,
+      "portions": [
+        {
+          "name": "1 Piece",
+          "weight": 100
+        },
+        {
+          "name": "1 Serving (53g)",
+          "weight": 53
+        }
+      ],
+      "data_source": "Branded",
+      "is_verified": true
+    },
+    {
+      "id": "fd_usda_1851183_0",
+      "name": "PANNER, HAZELNUTTER, CHOCOLATE, CHOCOLATE",
+      "category": "Nut & Seed Butters",
+      "base_unit": "g",
+      "base_amount": 100,
+      "calories": 541,
+      "protein_g": 5.4,
+      "carbs_g": 54,
+      "fat_g": 32.4,
+      "fiber_g": 2.7,
+      "serving_quantity": 37,
+      "portions": [
+        {
+          "name": "1 Piece",
+          "weight": 100
+        },
+        {
+          "name": "1 Serving (37g)",
+          "weight": 37
+        }
+      ],
+      "data_source": "Branded",
+      "is_verified": true
+    },
+    {
+      "id": "fd_usda_2123572_2",
+      "name": "CREAMY PEANUT BUTTER",
+      "category": "Nut & Seed Butters",
+      "base_unit": "g",
+      "base_amount": 100,
+      "calories": 562,
+      "protein_g": 21.9,
+      "carbs_g": 25,
+      "fat_g": 46.9,
+      "fiber_g": 6.2,
+      "serving_quantity": 32,
+      "portions": [
+        {
+          "name": "1 Piece",
+          "weight": 100
+        },
+        {
+          "name": "1 Serving (32g)",
+          "weight": 32
+        }
+      ],
+      "data_source": "Branded",
+      "is_verified": true
+    },
+    {
+      "id": "ifct_010",
+      "name": "Whole Cow Milk",
+      "category": "Dairy & Eggs",
+      "base_unit": "g",
+      "base_amount": 100,
+      "calories": 61,
+      "protein_g": 3.2,
+      "carbs_g": 4.8,
+      "fat_g": 3.3,
+      "fiber_g": 0,
+      "serving_quantity": 240,
+      "portions": [
+        {
+          "name": "1 Glass",
+          "weight": 200
+        },
+        {
+          "name": "1 Cup",
+          "weight": 240
+        },
+        {
+          "name": "1 Serving",
+          "weight": 240
+        }
+      ],
+      "data_source": "ICMR/IFCT 2020",
+      "is_verified": true
+    },
+    {
+      "id": "ifct_053",
+      "name": "Chicken Sandwich",
+      "category": "Global Fast Food",
+      "base_unit": "g",
+      "base_amount": 100,
+      "calories": 250,
+      "protein_g": 15.6,
+      "carbs_g": 23.7,
+      "fat_g": 10,
+      "fiber_g": 1.5,
+      "serving_quantity": 160,
+      "portions": [
+        {
+          "name": "1 Sandwich",
+          "weight": 160
+        },
+        {
+          "name": "1 Piece",
+          "weight": 160
+        }
+      ],
+      "data_source": "Fast Food Database",
+      "is_verified": true
+    },
+    {
+      "id": "ifct_054",
+      "name": "Grilled Chicken Sandwich",
+      "category": "Global Fast Food",
+      "base_unit": "g",
+      "base_amount": 100,
+      "calories": 205,
+      "protein_g": 17.6,
+      "carbs_g": 21.1,
+      "fat_g": 4.7,
+      "fiber_g": 1.8,
+      "serving_quantity": 170,
+      "portions": [
+        {
+          "name": "1 Sandwich",
+          "weight": 170
+        },
+        {
+          "name": "1 Piece",
+          "weight": 170
+        }
+      ],
+      "data_source": "Fast Food Database",
+      "is_verified": true
+    },
+    {
+      "id": "ifct_056",
+      "name": "Chicken Shawarma Wrap",
+      "category": "Global Fast Food",
+      "base_unit": "g",
+      "base_amount": 100,
+      "calories": 215,
+      "protein_g": 14,
+      "carbs_g": 21,
+      "fat_g": 7,
+      "fiber_g": 1.5,
+      "serving_quantity": 200,
+      "portions": [
+        {
+          "name": "1 Wrap",
+          "weight": 200
+        },
+        {
+          "name": "1 Piece",
+          "weight": 200
+        }
+      ],
+      "data_source": "Fast Food Database",
+      "is_verified": true
+    },
+    {
+      "id": "ifct_069",
+      "name": "Gulab Jamun",
+      "category": "Sweets & Desserts",
+      "base_unit": "g",
+      "base_amount": 100,
+      "calories": 350,
+      "protein_g": 6,
+      "carbs_g": 62,
+      "fat_g": 10,
+      "fiber_g": 0.5,
+      "serving_quantity": 50,
+      "portions": [
+        {
+          "name": "1 Piece",
+          "weight": 50
+        },
+        {
+          "name": "1 Serving (2 pieces)",
+          "weight": 100
+        }
+      ],
+      "data_source": "Indian Desserts Database",
+      "is_verified": true
+    },
+    {
+      "id": "ifct_070",
+      "name": "Jalebi",
+      "category": "Sweets & Desserts",
+      "base_unit": "g",
+      "base_amount": 100,
+      "calories": 380,
+      "protein_g": 2,
+      "carbs_g": 68,
+      "fat_g": 11,
+      "fiber_g": 0.5,
+      "serving_quantity": 100,
+      "portions": [
+        {
+          "name": "1 Serving (100g)",
+          "weight": 100
+        },
+        {
+          "name": "1 Piece",
+          "weight": 25
+        }
+      ],
+      "data_source": "Indian Desserts Database",
+      "is_verified": true
+    },
+    {
+      "id": "ifct_071",
+      "name": "Rasgulla",
+      "category": "Sweets & Desserts",
+      "base_unit": "g",
+      "base_amount": 100,
+      "calories": 186,
+      "protein_g": 5.2,
+      "carbs_g": 33.3,
+      "fat_g": 3.5,
+      "fiber_g": 0,
+      "serving_quantity": 57,
+      "portions": [
+        {
+          "name": "1 Piece",
+          "weight": 57
+        },
+        {
+          "name": "1 Serving (2 pieces)",
+          "weight": 114
+        }
+      ],
+      "data_source": "Indian Desserts Database",
+      "is_verified": true
+    },
+    {
+      "id": "ifct_072",
+      "name": "Kheer",
+      "category": "Sweets & Desserts",
+      "base_unit": "g",
+      "base_amount": 100,
+      "calories": 150,
+      "protein_g": 4,
+      "carbs_g": 22,
+      "fat_g": 5,
+      "fiber_g": 0.5,
+      "serving_quantity": 150,
+      "portions": [
+        {
+          "name": "1 Bowl / Serving",
+          "weight": 150
+        },
+        {
+          "name": "1 Piece",
+          "weight": 100
+        }
+      ],
+      "data_source": "Indian Desserts Database",
+      "is_verified": true
+    },
+    {
+      "id": "ifct_073",
+      "name": "Gajar / Sooji Halwa",
+      "category": "Sweets & Desserts",
+      "base_unit": "g",
+      "base_amount": 100,
+      "calories": 320,
+      "protein_g": 4,
+      "carbs_g": 45,
+      "fat_g": 14,
+      "fiber_g": 1.5,
+      "serving_quantity": 100,
+      "portions": [
+        {
+          "name": "1 Serving",
+          "weight": 100
+        },
+        {
+          "name": "1 Piece",
+          "weight": 100
+        }
+      ],
+      "data_source": "Indian Desserts Database",
+      "is_verified": true
+    },
+    {
+      "id": "ifct_074",
+      "name": "Dairy Milk Chocolate Bar",
+      "category": "Sweets & Desserts",
+      "base_unit": "g",
+      "base_amount": 100,
+      "calories": 525,
+      "protein_g": 7.5,
+      "carbs_g": 65,
+      "fat_g": 27.5,
+      "fiber_g": 2,
+      "serving_quantity": 40,
+      "portions": [
+        {
+          "name": "1 Bar (40g)",
+          "weight": 40
+        },
+        {
+          "name": "1 Piece",
+          "weight": 40
+        }
+      ],
+      "data_source": "Packaged Foods Database",
+      "is_verified": true
+    },
+    {
+      "id": "ifct_075",
+      "name": "Vanilla Ice Cream",
+      "category": "Sweets & Desserts",
+      "base_unit": "g",
+      "base_amount": 100,
+      "calories": 207,
+      "protein_g": 3.5,
+      "carbs_g": 24,
+      "fat_g": 11,
+      "fiber_g": 0.7,
+      "serving_quantity": 100,
+      "portions": [
+        {
+          "name": "1 Scoop (100g)",
+          "weight": 100
+        },
+        {
+          "name": "1 Serving",
+          "weight": 100
+        }
+      ],
+      "data_source": "Global Desserts Database",
+      "is_verified": true
+    },
+    {
+      "id": "ifct_076",
+      "name": "Chocolate Brownie",
+      "category": "Sweets & Desserts",
+      "base_unit": "g",
+      "base_amount": 100,
+      "calories": 405,
+      "protein_g": 5,
+      "carbs_g": 60,
+      "fat_g": 16.6,
+      "fiber_g": 2.5,
+      "serving_quantity": 60,
+      "portions": [
+        {
+          "name": "1 Piece (60g)",
+          "weight": 60
+        },
+        {
+          "name": "1 Serving",
+          "weight": 60
+        }
+      ],
+      "data_source": "Global Desserts Database",
+      "is_verified": true
+    },
+    {
+      "id": "ifct_077",
+      "name": "Glazed Donut",
+      "category": "Sweets & Desserts",
+      "base_unit": "g",
+      "base_amount": 100,
+      "calories": 426,
+      "protein_g": 4.7,
+      "carbs_g": 49,
+      "fat_g": 23.7,
+      "fiber_g": 1.5,
+      "serving_quantity": 63,
+      "portions": [
+        {
+          "name": "1 Donut",
+          "weight": 63
+        },
+        {
+          "name": "1 Piece",
+          "weight": 63
+        }
+      ],
+      "data_source": "Global Desserts Database",
+      "is_verified": true
+    },
+    {
+      "id": "ifct_078",
+      "name": "Cheesecake Slice",
+      "category": "Sweets & Desserts",
+      "base_unit": "g",
+      "base_amount": 100,
+      "calories": 321,
+      "protein_g": 5.5,
+      "carbs_g": 25.5,
+      "fat_g": 22.5,
+      "fiber_g": 0.4,
+      "serving_quantity": 100,
+      "portions": [
+        {
+          "name": "1 Slice",
+          "weight": 100
+        },
+        {
+          "name": "1 Serving",
+          "weight": 100
+        }
+      ],
+      "data_source": "Global Desserts Database",
+      "is_verified": true
+    },
+    {
+      "id": "ifct_083",
+      "name": "Sweet Lassi",
+      "category": "Beverages",
+      "base_unit": "g",
+      "base_amount": 100,
+      "calories": 72,
+      "protein_g": 2.4,
+      "carbs_g": 11.2,
+      "fat_g": 2,
+      "fiber_g": 0,
+      "serving_quantity": 250,
+      "portions": [
+        {
+          "name": "1 Glass (250ml)",
+          "weight": 250
+        },
+        {
+          "name": "1 Serving",
+          "weight": 250
+        }
+      ],
+      "data_source": "Beverages Database",
+      "is_verified": true
+    },
+    {
+      "id": "ifct_084",
+      "name": "Masala Chai with Milk",
+      "category": "Beverages",
+      "base_unit": "g",
+      "base_amount": 100,
+      "calories": 40,
+      "protein_g": 1.6,
+      "carbs_g": 5.6,
+      "fat_g": 1.2,
+      "fiber_g": 0,
+      "serving_quantity": 250,
+      "portions": [
+        {
+          "name": "1 Cup (250ml)",
+          "weight": 250
+        },
+        {
+          "name": "1 Serving",
+          "weight": 250
+        }
+      ],
+      "data_source": "Beverages Database",
+      "is_verified": true
+    },
+    {
+      "id": "ifct_093",
+      "name": "Watermelon",
+      "category": "Fruits",
+      "base_unit": "g",
+      "base_amount": 100,
+      "calories": 30,
+      "protein_g": 0.6,
+      "carbs_g": 8,
+      "fat_g": 0.2,
+      "fiber_g": 0.4,
+      "serving_quantity": 280,
+      "portions": [
+        {
+          "name": "1 Wedge / Slice",
+          "weight": 280
+        },
+        {
+          "name": "1 Cup Diced",
+          "weight": 150
+        }
+      ],
+      "data_source": "Fruits Database",
+      "is_verified": true
+    },
+    {
+      "id": "fd_usda_776020_13",
+      "name": "WHEY PROTEIN",
+      "category": "Snack, Energy & Granola Bars",
+      "base_unit": "g",
+      "base_amount": 100,
+      "calories": 351,
+      "protein_g": 22.2,
+      "carbs_g": 50.9,
+      "fat_g": 9.8,
+      "fiber_g": 0,
+      "serving_quantity": 45,
+      "portions": [
+        {
+          "name": "1 Piece",
+          "weight": 100
+        },
+        {
+          "name": "1 Serving (45g)",
+          "weight": 45
+        }
+      ],
+      "data_source": "Branded",
+      "is_verified": true
+    },
+    {
+      "id": "fd_usda_2705586_3",
+      "name": "Whey, sweet, dry",
+      "category": "Not included in a food category",
+      "base_unit": "g",
+      "base_amount": 100,
+      "calories": 353,
+      "protein_g": 12.9,
+      "carbs_g": 74.5,
+      "fat_g": 1.1,
+      "fiber_g": 0,
+      "serving_quantity": 150,
+      "portions": [
+        {
+          "name": "1 Piece",
+          "weight": 100
+        },
+        {
+          "name": "1 Serving",
+          "weight": 150
+        }
+      ],
+      "data_source": "Survey (FNDDS)",
+      "is_verified": true
+    },
+    {
+      "id": "fd_usda_171281_0",
+      "name": "Whey, acid, dried",
+      "category": "Dairy and Egg Products",
+      "base_unit": "g",
+      "base_amount": 100,
+      "calories": 339,
+      "protein_g": 11.7,
+      "carbs_g": 73.4,
+      "fat_g": 0.5,
+      "fiber_g": 0,
+      "serving_quantity": 150,
+      "portions": [
+        {
+          "name": "1 Piece",
+          "weight": 100
+        },
+        {
+          "name": "1 Serving",
+          "weight": 150
+        }
+      ],
+      "data_source": "SR Legacy",
+      "is_verified": true
+    },
+    {
+      "id": "fd_usda_170885_1",
+      "name": "Whey, acid, fluid",
+      "category": "Dairy and Egg Products",
+      "base_unit": "g",
+      "base_amount": 100,
+      "calories": 24,
+      "protein_g": 0.8,
+      "carbs_g": 5.1,
+      "fat_g": 0.1,
+      "fiber_g": 0,
+      "serving_quantity": 150,
+      "portions": [
+        {
+          "name": "1 Piece",
+          "weight": 100
+        },
+        {
+          "name": "1 Serving",
+          "weight": 150
+        }
+      ],
+      "data_source": "SR Legacy",
+      "is_verified": true
+    },
+    {
+      "id": "fd_usda_171283_2",
+      "name": "Whey, sweet, dried",
+      "category": "Dairy and Egg Products",
+      "base_unit": "g",
+      "base_amount": 100,
+      "calories": 353,
+      "protein_g": 12.9,
+      "carbs_g": 74.5,
+      "fat_g": 1.1,
+      "fiber_g": 0,
+      "serving_quantity": 150,
+      "portions": [
+        {
+          "name": "1 Piece",
+          "weight": 100
+        },
+        {
+          "name": "1 Serving",
+          "weight": 150
+        }
+      ],
+      "data_source": "SR Legacy",
+      "is_verified": true
+    },
+    {
+      "id": "fd_usda_171282_4",
+      "name": "Whey, sweet, fluid",
+      "category": "Dairy and Egg Products",
+      "base_unit": "g",
+      "base_amount": 100,
+      "calories": 27,
+      "protein_g": 0.9,
+      "carbs_g": 5.1,
+      "fat_g": 0.4,
+      "fiber_g": 0,
+      "serving_quantity": 150,
+      "portions": [
+        {
+          "name": "1 Piece",
+          "weight": 100
+        },
+        {
+          "name": "1 Serving",
+          "weight": 150
+        }
+      ],
+      "data_source": "SR Legacy",
+      "is_verified": true
+    },
+    {
+      "id": "fd_usda_1935895_12",
+      "name": "MEAL WITH WHEY",
+      "category": "Cereal",
+      "base_unit": "g",
+      "base_amount": 100,
+      "calories": 400,
+      "protein_g": 18.8,
+      "carbs_g": 40,
+      "fat_g": 20,
+      "fiber_g": 7.1,
+      "serving_quantity": 85,
+      "portions": [
+        {
+          "name": "1 Piece",
+          "weight": 100
+        },
+        {
+          "name": "1 Serving (85g)",
+          "weight": 85
+        }
+      ],
+      "data_source": "Branded",
+      "is_verified": true
+    },
+    {
+      "id": "fd_usda_173180_5",
+      "name": "Beverages, Protein powder whey based",
+      "category": "Beverages",
+      "base_unit": "g",
+      "base_amount": 100,
+      "calories": 1470,
+      "protein_g": 78.1,
+      "carbs_g": 6.3,
+      "fat_g": 1.6,
+      "fiber_g": 3.1,
+      "serving_quantity": 150,
+      "portions": [
+        {
+          "name": "1 Piece",
+          "weight": 100
+        },
+        {
+          "name": "1 Serving",
+          "weight": 150
+        }
+      ],
+      "data_source": "SR Legacy",
+      "is_verified": true
+    },
+    {
+      "id": "fd_usda_173177_6",
+      "name": "Beverages, Whey protein powder isolate",
+      "category": "Beverages",
+      "base_unit": "g",
+      "base_amount": 100,
+      "calories": 359,
+      "protein_g": 58.1,
+      "carbs_g": 29.1,
+      "fat_g": 1.2,
+      "fiber_g": 0,
+      "serving_quantity": 150,
+      "portions": [
+        {
+          "name": "1 Piece",
+          "weight": 100
+        },
+        {
+          "name": "1 Serving",
+          "weight": 150
+        }
+      ],
+      "data_source": "SR Legacy",
+      "is_verified": true
+    },
+    {
+      "id": "fd_usda_2710742_8",
+      "name": "Nutritional powder mix, whey based, NFS",
+      "category": "Protein and nutritional powders",
+      "base_unit": "g",
+      "base_amount": 100,
+      "calories": 352,
+      "protein_g": 78.1,
+      "carbs_g": 6.3,
+      "fat_g": 1.6,
+      "fiber_g": 3.1,
+      "serving_quantity": 150,
+      "portions": [
+        {
+          "name": "1 Piece",
+          "weight": 100
+        },
+        {
+          "name": "1 Serving",
+          "weight": 150
+        }
+      ],
+      "data_source": "Survey (FNDDS)",
+      "is_verified": true
+    },
+    {
+      "id": "ifct_097",
+      "name": "Whey Protein",
+      "category": "Supplements",
+      "base_unit": "g",
+      "base_amount": 100,
+      "calories": 400,
+      "protein_g": 83.3,
+      "carbs_g": 10,
+      "fat_g": 6.7,
+      "fiber_g": 0,
+      "serving_quantity": 30,
+      "portions": [
+        {
+          "name": "1 Scoop",
+          "weight": 30
+        },
+        {
+          "name": "1 Serving",
+          "weight": 30
+        }
+      ],
+      "data_source": "Supplements Database",
+      "is_verified": true
+    }
+  ],
+  "food_units": [],
+  "meals": [
+    {
+      "id": "meal_gym_thali",
+      "user_id": "usr_1782642221826",
+      "name": "High Protein Gym Thali",
+      "description": "2 Rotis, Paneer Cubes & Dal Tadka",
+      "total_calories": 546,
+      "total_protein": 34.2,
+      "total_carbs": 63,
+      "total_fat": 13.6,
+      "total_fiber": 11.5,
+      "created_at": "2026-06-28T11:00:00.000Z"
+    },
+    {
+      "id": "meal_chicken_feast",
+      "user_id": "usr_1782642221826",
+      "name": "Tandoori Chicken & Rice Bowl",
+      "description": "Tandoori Quarter Chicken with Cooked Basmati Rice",
+      "total_calories": 548,
+      "total_protein": 46.2,
+      "total_carbs": 53.8,
+      "total_fat": 19.5,
+      "total_fiber": 1.2,
+      "created_at": "2026-06-28T14:30:00.000Z"
+    }
+  ],
+  "meal_ingredients": [
+    {
+      "id": "mi_1",
+      "meal_id": "meal_gym_thali",
+      "food_id": "ifct_roti",
+      "unit_name": "1 Medium Roti",
+      "quantity": 2,
+      "calculated_calories": 238,
+      "calculated_protein": 9.3,
+      "calculated_carbs": 48,
+      "calculated_fat": 1.2,
+      "calculated_fiber": 7.8
+    },
+    {
+      "id": "mi_2",
+      "meal_id": "meal_gym_thali",
+      "food_id": "ifct_paneer",
+      "unit_name": "1 Small Cube",
+      "quantity": 4,
+      "calculated_calories": 155,
+      "calculated_protein": 11,
+      "calculated_carbs": 0.7,
+      "calculated_fat": 12,
+      "calculated_fiber": 0
+    },
+    {
+      "id": "mi_3",
+      "meal_id": "meal_gym_thali",
+      "food_id": "ifct_dal",
+      "unit_name": "1 Small Katori / Bowl",
+      "quantity": 1,
+      "calculated_calories": 153,
+      "calculated_protein": 13.9,
+      "calculated_carbs": 14.3,
+      "calculated_fat": 0.4,
+      "calculated_fiber": 3.7
+    }
+  ],
+  "daily_logs": [
+    {
+      "id": "log_today_1",
+      "user_id": "usr_1782642221826",
+      "log_date": "2026-06-29",
+      "meal_type": "Breakfast",
+      "item_type": "food",
+      "name": "Whole Wheat Roti / Chapati",
+      "food_id": "ifct_roti",
+      "meal_id": null,
+      "unit_name": "1 Medium Roti",
+      "quantity": 2,
+      "calories": 238,
+      "protein_g": 9.3,
+      "carbs_g": 48,
+      "fat_g": 1.2,
+      "fiber_g": 7.8,
+      "logged_at": "2026-06-29T08:30:00.000Z"
+    },
+    {
+      "id": "log_today_2",
+      "user_id": "usr_1782642221826",
+      "log_date": "2026-06-29",
+      "meal_type": "Lunch",
+      "item_type": "food",
+      "name": "Chicken Biryani",
+      "food_id": "ifct_biryani",
+      "meal_id": null,
+      "unit_name": "1 Plate / Serving",
+      "quantity": 1,
+      "calories": 630,
+      "protein_g": 33.3,
+      "carbs_g": 77,
+      "fat_g": 21.7,
+      "fiber_g": 4.2,
+      "logged_at": "2026-06-29T13:15:00.000Z"
+    },
+    {
+      "id": "log_today_3",
+      "user_id": "usr_1782642221826",
+      "log_date": "2026-06-29",
+      "meal_type": "Snack",
+      "item_type": "food",
+      "name": "Paneer (Cow Milk)",
+      "food_id": "ifct_paneer",
+      "meal_id": null,
+      "unit_name": "1 Medium Slice",
+      "quantity": 3,
+      "calories": 232,
+      "protein_g": 16.5,
+      "carbs_g": 1.1,
+      "fat_g": 18,
+      "fiber_g": 0,
+      "logged_at": "2026-06-29T16:00:00.000Z"
+    },
+    {
+      "id": "log_prev_1",
+      "user_id": "usr_1782642221826",
+      "log_date": "2026-06-28",
+      "meal_type": "Dinner",
+      "item_type": "food",
+      "name": "Tandoori Chicken",
+      "food_id": "ifct_tandoori_chicken",
+      "meal_id": null,
+      "unit_name": "1 Breast Piece (Quarter)",
+      "quantity": 1,
+      "calories": 351,
+      "protein_g": 41.4,
+      "carbs_g": 3.6,
+      "fat_g": 18.9,
+      "fiber_g": 0.7,
+      "logged_at": "2026-06-28T20:00:00.000Z"
+    },
+    {
+      "id": "log_prev_2",
+      "user_id": "usr_1782642221826",
+      "log_date": "2026-06-28",
+      "meal_type": "Lunch",
+      "item_type": "food",
+      "name": "Cooked Basmati Rice",
+      "food_id": "ifct_rice",
+      "meal_id": null,
+      "unit_name": "1 Medium Bowl",
+      "quantity": 1,
+      "calories": 234,
+      "protein_g": 4.9,
+      "carbs_g": 50.8,
+      "fat_g": 0.5,
+      "fiber_g": 0.7,
+      "logged_at": "2026-06-28T13:30:00.000Z"
+    },
+    {
+      "id": "log_1782730608431",
+      "user_id": "usr_1782642221826",
+      "log_date": "2026-06-29",
+      "meal_type": "Lunch",
+      "item_type": "food",
+      "name": "Plain Paratha",
+      "food_id": "ifct_011",
+      "meal_id": null,
+      "unit_name": "1 Piece",
+      "quantity": 1,
+      "calories": 180,
+      "protein_g": 4.2,
+      "carbs_g": 25.8,
+      "fat_g": 6.6,
+      "fiber_g": 2.4,
+      "logged_at": "2026-06-29T10:56:48.431Z"
+    },
+    {
+      "id": "log_1782730650021",
+      "user_id": "usr_1782642221826",
+      "log_date": "2026-06-29",
+      "meal_type": "Lunch",
+      "item_type": "food",
+      "name": "Fresh Banana",
+      "food_id": "ifct_091",
+      "meal_id": null,
+      "unit_name": "1 Serving",
+      "quantity": 3,
+      "calories": 315,
+      "protein_g": 3.9,
+      "carbs_g": 81.4,
+      "fat_g": 1.1,
+      "fiber_g": 9.2,
+      "logged_at": "2026-06-29T10:57:30.021Z"
+    },
+    {
+      "id": "log_1782804283009",
+      "user_id": "usr_1782642221826",
+      "log_date": "2026-06-30",
+      "meal_type": "Lunch",
+      "item_type": "food",
+      "name": "Paneer Paratha",
+      "food_id": "ifct_013",
+      "meal_id": null,
+      "unit_name": "Grams (g)",
+      "quantity": 150,
+      "calories": 510,
+      "protein_g": 16.5,
+      "carbs_g": 63,
+      "fat_g": 21,
+      "fiber_g": 5.3,
+      "logged_at": "2026-06-30T07:24:43.009Z"
+    },
+    {
+      "id": "log_1782805540729",
+      "user_id": "usr_1782642221826",
+      "log_date": "2026-06-30",
+      "meal_type": "Lunch",
+      "item_type": "food",
+      "name": "Whey Protein",
+      "food_id": "ifct_097",
+      "meal_id": null,
+      "unit_name": "1 Serving",
+      "quantity": 1,
+      "calories": 120,
+      "protein_g": 25,
+      "carbs_g": 3,
+      "fat_g": 2,
+      "fiber_g": 0,
+      "logged_at": "2026-06-30T07:45:40.729Z"
+    },
+    {
+      "id": "log_1782805544624",
+      "user_id": "usr_1782642221826",
+      "log_date": "2026-06-30",
+      "meal_type": "Lunch",
+      "item_type": "food",
+      "name": "Whey Protein",
+      "food_id": "ifct_097",
+      "meal_id": null,
+      "unit_name": "1 Serving",
+      "quantity": 1,
+      "calories": 120,
+      "protein_g": 25,
+      "carbs_g": 3,
+      "fat_g": 2,
+      "fiber_g": 0,
+      "logged_at": "2026-06-30T07:45:44.624Z"
+    }
+  ],
+  "goals_history": []
+}
